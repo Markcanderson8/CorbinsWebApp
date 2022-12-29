@@ -1,0 +1,32 @@
+img {
+  float: right;
+  margin: 2rem;
+  border-radius: 5px;
+}
+
+.pageContainer {
+  background: linear-gradient(.35turn, blue, lightblue, white, lightgray);
+}
+
+.container {
+  padding: 2rem;
+}
+
+.wrapper {
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 5px 5px 5px lightgray;
+  padding-left: 1rem;
+}
+
+
+h1 {
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: blue;
+}
