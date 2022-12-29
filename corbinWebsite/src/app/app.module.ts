@@ -10,12 +10,17 @@ import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { PressComponent } from './press/press.component';
-import { DieComponent } from './die/die.component';
-import { JacketMakerComponent } from './jacket-maker/jacket-maker.component';
-import { BookComponent } from './book/book.component';
+import { PressComponent } from './press/press-list/press.component';
+import { DieComponent } from './die/die-card/die.component';
+import { JacketMakerComponent } from './jacket-maker/jacket-maker-card/jacket-maker.component';
+import { BookComponent } from './book/book-card/book.component';
 import { SoftwareComponent } from './software/software.component';
 import { KitComponent } from './kit/kit.component';
+import { PressListItemComponent } from './press/press-list-item/press-list-item.component';
+import { DieListComponent } from './die/die-list/die-list.component';
+import { JacketMakerListComponent } from './jacket-maker/jacket-maker-list/jacket-maker-list.component';
+import { BookCardListComponent } from './book/book-list/book-list.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +35,11 @@ import { KitComponent } from './kit/kit.component';
     DieComponent,
     JacketMakerComponent,
     BookComponent,
-    KitComponent
+    KitComponent,
+    PressListItemComponent,
+    DieListComponent,
+    JacketMakerListComponent,
+    BookCardListComponent
   ],
   imports: [
     BrowserModule,
@@ -39,9 +48,9 @@ import { KitComponent } from './kit/kit.component';
       {path: 'about', component: AboutComponent},
       {path: 'contact', component: ContactComponent},
       {path: 'presses', component: PressComponent},
-      {path: 'dies', component: DieComponent},
-      {path: 'jacket-makers', component: JacketMakerComponent},
-      {path: 'books', component: BookComponent},
+      {path: 'dies', component: DieListComponent},
+      {path: 'jacket-makers', component: JacketMakerListComponent},
+      {path: 'books', component: BookCardListComponent},
       {path: 'software', component: SoftwareComponent},
       {path: 'kits', component: KitComponent}
     ])

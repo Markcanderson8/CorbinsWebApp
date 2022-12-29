@@ -1,0 +1,7 @@
+<div class="pageContainer">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div *ngFor="let press of presses" class="p-5">
+      <app-press-list-item [press]="press"></app-press-list-item>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Press } from '../presses';
 
 @Component({
   selector: 'app-press',
@@ -7,7 +6,7 @@ import { Press } from '../presses';
   styleUrls: ['./press.component.css'],
 })
 export class PressComponent {
-  press: Press[] = [
+  presses: Array<any> = [
     {
       name: 'S-Press',
       code: 'CSP-1',

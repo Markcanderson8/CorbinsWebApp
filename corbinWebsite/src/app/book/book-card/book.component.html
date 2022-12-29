@@ -1,0 +1,17 @@
+<div class="pageContainer">
+  <div class="card">
+    <div class="cardInfo">
+      <img src="../../../assets/book.jpg" alt="" />
+      <div class="cardMatrix">
+        <h1>{{ book.name }}</h1>
+        <h2>Code: {{ book.code }}</h2>
+        <h3>Price: {{ book.price | currency }}</h3>
+        <h4>Quantity: {{ book.quantity }}</h4>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="btnAdd">Add To Card</button>
+      <button class="btnBuy">Buy Now</button>
+    </div>
+  </div>
+</div>
